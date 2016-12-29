@@ -1,11 +1,11 @@
 new Vue({
   el: '#app',
   data: {
-    counter: 0
+    counter: 2
   },
   methods: {
     increment() {
-      this.counter++;
+      this.counter=this.counter*2;
     }
   }
 });

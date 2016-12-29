@@ -13,19 +13,19 @@
     constructor(...args) {
       super(...args);
       this.state = {
-        text: 'World'
+        text: 'click here.'
       };
     }
 
     handleClick() {
       this.setState({
-        text: 'Clicked'
+        text: 'Wow, "you just clicked me!"'
       });
     }
 
     render() {
       return <h1 onClick={this.handleClick.bind(this)}>
-        {'Hello ' + this.state.text}
+        {'Hello, ' + this.state.text}
       </h1>;
     }
   };

@@ -8,8 +8,11 @@ var myModel = {
     name: 'Jane',
     age: 20
   }, {
-    name: 'Anna',
-    age: 29
+    name: 'Megan',
+    age: 38
+  }, {
+    name: 'Lin',
+    age: 36
   }],
   search: ''
 };
